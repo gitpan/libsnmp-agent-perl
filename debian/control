@@ -1,0 +1,19 @@
+Source: libsnmp-agent-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: libmodule-build-perl (>= 0.36),
+ libsnmp-perl,
+ perl
+Maintainer: Alexander Else <alexander.else@team.telstra.com>
+Standards-Version: 3.9.1
+Homepage: http://search.cpan.org/dist/SNMP-Agent/
+
+Package: libsnmp-agent-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libsnmp-perl
+Description: A simple SNMP AgentX subagent
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.

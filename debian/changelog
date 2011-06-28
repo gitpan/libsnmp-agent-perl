@@ -1,0 +1,5 @@
+libsnmp-agent-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alexander Else <alexander.else@team.telstra.com>  Tue, 28 Jun 2011 15:51:05 +1000
